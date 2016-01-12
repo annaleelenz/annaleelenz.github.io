@@ -1,0 +1,27 @@
+body {
+background: url("../images/Creative-graphic-design.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+h1 {
+	padding-top: 20px;
+    padding-right: 150px;
+	color: gray;
+	background-color:transparent;
+	font-family: Arial, sans-serif;
+	font-size: 24px;
+	font-weight:bold;
+	text-align:right;
+	}
+p 	{
+    padding-top: 20px;
+     padding-right: 150px;
+     padding-left: 80px;
+	color: gray;
+	background-color:transparent;
+	font-family: Arial, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	text-align:right;
+	text-decoration: none;
+	}
