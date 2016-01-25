@@ -3,7 +3,8 @@
 header {
     background-color: #FFED74;
     border: 1px black solid;
-    padding: 20px;#FFED7
+    padding: 20px;
+    display: center;
 }
 
 section {
