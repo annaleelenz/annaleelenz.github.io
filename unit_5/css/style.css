@@ -1,31 +1,60 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700);
 
-header {
-    background-color: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
-    display: center;
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
 }
 
-section {
+body{
+	
+}
+
+header {
+/*    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+    display: center;*/
+}
+
+header img{
+	display: block;
+	margin:auto;
+}
+
+figure {
+	width:340px;
     background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
+    float: left;
+    position: relative;
 }
 	
-section img {
+figure img {
 	display: block; 
 } 
 
-h1 {
+
+
+figcaption {
+	position: absolute;
+	top:155px;
+	left:0;
+	width:100%;
 	color: gray;
-	background-color:transparent;
 	font-family: 'Josefin', sans-serif;
 	font-size: 1em;
 	font-height: 150%;
 	font-weight:400;
 	text-align:center;
-	}
+	display: none;
+}
+
+figure:hover > figcaption{
+	display: block;
+}
+
 footer 	{
 	background-color: #FF957E;
 	border: 1px black solid;
@@ -36,4 +65,19 @@ footer 	{
 	font-weight:400;
 	text-align:center;
 	text-decoration: none;
-	}
+}
+
+.clearfix:after{
+	height: 0;
+	font-size:0;
+	visibility: hidden;
+	display: block;
+	content:" ";
+	clear: both;
+}
+
+#figure-wrap{
+	/*background:yellow;*/
+	width:1020px;
+	margin:20px auto 60px;
+}
