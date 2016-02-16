@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700);
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	
+}
+
+header {
+/*    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+    display: center;*/
+}
+
+header img{
+	display: block;
+	margin:auto;
+}
+
+figure {
+	width:30%;
+    background-color: none;
+    border: 1% none;
+    padding: 1em;
+    float: left;
+    margin:auto;
+	position: relative;
+}
+	
+figure img {
+	display: block; 
+} 
+
+
+
+figcaption {
+	position: absolute;
+	top:205px;
+	left:0;
+	width:100%;
+	color: gray;
+	font-family: 'Josefin', sans-serif;
+	font-size: 1em;
+	font-height: 150%;
+	font-weight:400;
+	text-decoration:none;
+	text-align:center;
+	display: none;
+}
+
+figure:hover > figcaption{
+	display: block;
+}
+a {
+	color: gray;
+	text-decoration: none; 
+}
+
+footer {
+	width:90%;
+	background-color: black;
+	border: 1% black solid;
+	padding: 1em;
+	font-family: 'Josefin', sans-serif;
+	font-color: white;
+	font-size: 1em;
+	font-height: 150%;
+	font-weight:400;
+	text-align:center;
+	text-decoration:none;
+    position: relative;
+	margin:auto;
+	}
+
+.clearfix:after {
+	height: 0;
+	font-size:0;
+	visibility: hidden;
+	display: block;
+	content:" ";
+	clear: both;
+}
+
+#figure-wrap {
+	/*background:yellow;*/
+	width:100%;
+	margin: 10px auto 60px;
+}
+@media only screen and (max-width: 800px) {
+	  figure {
+    float: none;
+	margin:auto;
+    position: relative;}
+}
+@media only screen and (max-width: 480px) {
+  	  figure {
+    float: none;
+	margin:auto;
+    position: relative;
+}
